@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  	<meta charset="utf-8">
+		<title>Tom Emmerson</title>
+		<!--favicon-->
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<!--bootstrap references-->
+    	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    	<link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+    	<!--my stylesheet reference-->
+    	<link href="css/main.css" rel="stylesheet" media="screen">
+	</head>
+	<body>
+
+		<div class="container">
+			<h1 id="title">Task List (Native Javascript) Application</h1>
+		</div>
+		<div class="container">
+			<div class="panel panel-default">
+	  				<div class="panel-body">
+						<div class="row">
+							<div class="container" >
+						      	<p>
+						        	<label for="new-task"><h3>Add Item</h3></label>
+						        	<input id="new-task" type="text" value="Type a new task here">
+						        	<button id="newTaskButton">Add</button>
+						      	</p>
+	      					</div>
+	      				</div>
+	      			</div>
+					<div class="panel-body">
+      					<h3>
+      						Incomplete Tasks
+      					</h3>
+      					<ul id="incomplete-tasks">
+	        				<li>
+	        					<input type="checkbox"><label>Incomplete tasks belong here</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button>
+	        				</li>
+      					</ul>
+      				</div>
+      				<div class="panel-body">
+      					<h3>
+      						Completed Tasks
+      					</h3>
+      					<ul id="completed-tasks">
+        					<li>
+        						<input type="checkbox" checked><label>Completed tasks belong here</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button>
+        					</li>
+      					</ul>
+    				</div>
+    		</div>
+		</div>
+		<div id="footer" class="footermain">
+			<div class="container">
+				<p class="text-muted">
+					Copyright Tom Emmerson 2015 to present.<br>Images used with permission.<br>All rights reserved.
+				</p>
+			</div><!--container-->
+		</div><!--footer-->
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+    	<script src="js/bootstrap.min.js"></script>
+		<!--need to reference my app.js file here when i've sorted out the code-->  
+		<script src="js/todo.js"></script>	
+	</body>
+</html>

@@ -1,0 +1,10 @@
+<div class="container">
+	<div class="panel-body" ng-controller="mainCtrl">
+		<div class="item" ng-repeat="item in items">
+			<div class="thumbnail col-sm-6 col-md-3">
+				<div class="label">{{item.Title}}</div>
+				<a href="{{item.ViewURL}}"><img ng-src="{{item.Picture}}" alt="View Portfolio Item" /></a>
+			</div>
+		</div>
+	</div>
+</div>

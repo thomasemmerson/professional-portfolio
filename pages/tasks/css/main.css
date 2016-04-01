@@ -1,0 +1,114 @@
+/*************************************
+LAYOUT
+**************************************/
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	background-image: url("../img/star-people.10b9d734.jpg"); 
+	background-size: cover;
+}
+
+.panel-body {
+	border-color: #ddd;
+	padding: 15px;
+}
+
+
+/*************************************
+TEXT
+**************************************/
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #000;
+}
+
+h2 {
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #08188B;
+}
+
+h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	margin-bottom: 20px;
+	color: #387BE2;
+}
+
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/*************************************
+NAVBAR
+**************************************/
+
+.navbar-brand {
+	text-decoration: none;
+	color: blue;
+}
+
+.navbar {
+	border-bottom: solid 2px #6600ff;
+}
+
+/*************************************
+FOOTER
+**************************************/
+
+#footer p {
+	text-align: center;
+}
+
+label {
+ padding: 0px 4px 0px 4px;
+}
+
+/* Completed */
+#completed-tasks label {
+  text-decoration: line-through;
+}
+
+ul li {
+	display: block;
+}
+
+ul li button {
+	margin-right: 4px;
+}
+
+/* Edit Task */
+ul li input[type=text] {
+  display:none;
+}
+
+ul li.editMode input[type=text] {
+  display: inline-block;
+}
+
+ul li.label {
+	width: 165px;
+}
+
+
+ul li.editMode label {
+  display:none;
+}
+
+ul li.editMode button.delete {
+	display: none;
+}
+
+ul li.editMode input[type=checkbox] {
+	display: none;
+}

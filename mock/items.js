@@ -1,0 +1,8 @@
+[{"Title":"Moersch Woltman native app design","Picture":"http://tomemmerson.website/img/sps.png","Show":"FALSE","ViewBool":"FALSE","ViewURL":"#","Notes":"Decided not to proceed at this point."},
+{"Title":"HRonline UX Study: legacy site switchover","Picture":"http://tomemmerson.website/img/hro.png","Show":"FALSE","ViewBool":"FALSE","ViewURL":"#","Notes":"The case study document needs finishing."},
+{"Title":"HRonline UX Study: tasks feature","Picture":"http://tomemmerson.website/img/hro.png","Show":"FALSE","ViewBool":"FALSE","ViewURL":"#","Notes":"This will be incomplete for a while."},
+{"Title":"Oxfam UX Study","Picture":"http://tomemmerson.website/img/oxfam.png","Show":"TRUE","ViewBool":"TRUE","ViewURL":"http://tomemmerson.website/docs/UXDesignCaseStudy-Oxfam_(04-02-2016).docx","Notes":""},
+{"Title":"Native Javascript task list application","Picture":"http://tomemmerson.website/img/tasks-js.png","Show":"TRUE","ViewBool":"TRUE","ViewURL":"http://tomemmerson.website/pages/tasks/index.html","Notes":""},
+{"Title":"LinkAid mock charity native app design","Picture":"http://tomemmerson.website/img/linkaid.png","Show":"TRUE","ViewBool":"TRUE","ViewURL":"https://marvelapp.com/86bcd3","Notes":""},
+{"Title":"Angular task list application","Picture":"http://tomemmerson.website/img/angular_task.png","Show":"TRUE","ViewBool":"TRUE","ViewURL":"http://tomemmerson.website/pages/AngularApp/index.html","Notes":""},
+{"Title":"Co-operative Food native app design","Picture":"http://tomemmerson.website/img/coop.png","Show":"TRUE","ViewBool":"TRUE","ViewURL":"https://marvelapp.com/explore/307722/the-co-operative-food-mobile-web-app","Notes":""}]
