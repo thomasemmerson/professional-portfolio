@@ -5,7 +5,7 @@ angular.module('portfolioApp')
 .service('dataService', function($http) {
 
     this.getItems = function(callback) {
-        $http.get('http://tomemmerson.website/mock/items.js').then(callback)
+        $http.get('mock/items.js').then(callback)
     };
 
 });
