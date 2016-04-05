@@ -7,7 +7,7 @@ angular.module('portfolioApp')
 })
 
 .controller('titleController', function($scope) {
-    $scope.title = 'The professional profile of Tom Emmerson.';
+    $scope.title = 'The portfolio of Tom Emmerson.';
 })
 
 .controller('mainCtrl', function($scope, dataService) {
