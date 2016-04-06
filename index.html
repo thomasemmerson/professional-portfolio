@@ -24,16 +24,37 @@
 			})(window,document,'script','dataLayer','GTM-WJNMC4');</script>
 		<!-- End Google Tag Manager -->
 
-		<!--jumbotron - part of every page-->
-		<jumbotron></jumbotron>
+		<div class="jumbotron">
+			<h1>The homepage of Tom Emmerson.</h1>
 
-	    <!-- dynamic page contents will be injected here... -->
-	    <portfolio></portfolio>
+			<nav class="{{active}}" ng-click="$event.preventDefault()">
+				<button type="button" class="btn btn-default" ng-click="active = 'portfolio'">Portfolio</button>
+				<button type="button" class="btn btn-default" ng-click="active = 'about'">About</button>	
+			</nav>
+		</div>
 
-	    <about></about>
+		<div class="container" ng-init="active = 'portfolio'" ng-show="active == 'portfolio'">
+			<div class="panel-body" ng-controller="mainCtrl">
+				<div class="item" ng-repeat="item in items">
+					<div class="thumbnail col-sm-6 col-md-3">
+						<div class="label">{{item.Title}}</div>
+						<a href="{{item.ViewURL}}"><img ng-src="{{item.Picture}}" alt="View Portfolio Item" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-	    <!--footer - part of every page-->
-	    <footer></footer>
+		<div class="container" ng-show="active == 'about'">
+			<div class="panel-body" ng-controller="mainCtrl">
+				<p>
+					My name is Tom Emmerson and I am a Business Analyst, Agile Product Owner, and Front-end Web Developer. If you would like to discuss a work opportunity with me, I can be reached on +44 7746 332 236, or at thomasemmerson@sky.com.
+				</p>
+			</div>
+		</div>
+
+		<div id="footer" class="container">
+			<p class="text-muted">&copy; Tom Emmerson 2013 - present. Images used with permission. All rights reserved.</p>
+		</div>
 
 		<!--reference bootstrap jquery js file here-->		
 		<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
@@ -45,9 +66,5 @@
     	<script src="scripts/app.js"></script>	
     	<script src="scripts/controllers/main.js" type="text/javascript"></script>
     	<script src="scripts/services/data.js" type="text/javascript"></script>
-    	<script src="scripts/directives/portfolio.js" type="text/javascript"></script>
-    	<script src="scripts/directives/about.js" type="text/javascript"></script>
-    	<script src="scripts/directives/jumbotron.js" type="text/javascript"></script>
-    	<script src="scripts/directives/footer.js" type="text/javascript"></script>
 	</body>
 </html>

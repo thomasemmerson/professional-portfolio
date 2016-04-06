@@ -6,10 +6,6 @@ angular.module('portfolioApp')
 
 })
 
-.controller('titleController', function($scope) {
-    $scope.title = 'The portfolio of Tom Emmerson.';
-})
-
 .controller('mainCtrl', function($scope, dataService) {
 
     dataService.getItems(function(response) {
@@ -18,11 +14,3 @@ angular.module('portfolioApp')
 
 })
 
-.controller('footerCtrl', function($scope, dataService) {
-
-})
-
-.controller('aboutCtrl', function($scope, dataService) {
-
-
-})
