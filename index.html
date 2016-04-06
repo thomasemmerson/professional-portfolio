@@ -26,11 +26,14 @@
 
 		<!--jumbotron - part of every page-->
 		<jumbotron></jumbotron>
-
-	    <!-- dynamic page contents will be injected here... -->
-	    <portfolio></portfolio>
-
-	    <about></about>
+		
+		<!-- everything inside this div is controlled -->
+		<div ng-switch-on="component">
+		    <!-- portfolio section displayed by default -->
+		    <portfolio ng-switch-when="portfolio"></portfolio>
+		    <!-- about section displayed when user navigates there -->
+		    <about ng-switch-when="about"></about>
+	    </div>
 
 	    <!--footer - part of every page-->
 	    <footer></footer>
