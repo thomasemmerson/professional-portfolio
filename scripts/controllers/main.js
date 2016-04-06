@@ -18,21 +18,11 @@ angular.module('portfolioApp')
 
 })
 
-/*.controller('footerCtrl', function($scope, dataService) {
+.controller('footerCtrl', function($scope, dataService) {
 
 })
 
 .controller('aboutCtrl', function($scope, dataService) {
 
 
-})*/
-
-.controller('DisplayController', function($scope) {
-
-    $scope.component = "flash";
-
-    $scope.setComponent = function(val)
-    {
-        $scope.component =val;
-    }
 })
